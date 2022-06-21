@@ -2,10 +2,3 @@
   max-width: 460px;
   width: 100%;
 }
-
-@media screen and (max-width: 1279) {
-  .place__image {
-    /* max-width: 440px;
-    width: 100%; */
-  }
-  }
