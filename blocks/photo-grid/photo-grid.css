@@ -1,0 +1,12 @@
+.photo-grid {
+  box-sizing: border-box;
+  padding: 0 48px;
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    padding: 0 24px;
+    margin: 88px auto 0;
+  }
+}

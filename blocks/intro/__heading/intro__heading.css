@@ -1,0 +1,27 @@
+.intro__heading {
+  font-weight: 900;
+font-size: 54px;
+line-height: 58px;
+margin: 0;
+text-align: left;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro__heading{
+    max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+ .intro__heading{
+  max-width: 690px;
+ }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__heading{
+    max-width: 720px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
