@@ -1,0 +1,14 @@
+.place__paragraph {
+  max-width: 484px;
+  margin: 0;
+}
+
+.place__paragraph:nth-child(2) {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 1279) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+  }
