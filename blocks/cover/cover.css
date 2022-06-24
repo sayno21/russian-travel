@@ -1,7 +1,8 @@
 .cover {
   cursor: pointer;
   max-width: 1184px;
-  min-height: 740px;
+  width: 100%;
+  aspect-ratio: 8/5;
   margin: 92px 48px 0px;
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3)), url(../../image/railway-station.png);
   background-size: cover;
@@ -17,24 +18,19 @@
 
 @media screen and (max-width: 1279px) {
  .cover {
-  max-width: 1024px;
-  min-height: 640px;
-  margin: 92px 0 0 0;
+  margin: 92px auto 0;
+
  }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    max-width: 768px;
-    min-height: 480px;
     margin: 90px 0 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
  .cover {
-  max-width: 320px;
-  min-height: 200px;
   margin: 66px 0 0 0;
  }
 }

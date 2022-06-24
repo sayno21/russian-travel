@@ -3,12 +3,27 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  margin-top: 40px;
+  margin: 40px 0 0 0;
   text-align: left;
+}
+
+ @media screen and (max-width: 1279px) {
+  .intro__text {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__text {
+    min-width: 720px;
+    margin-left: 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .intro__text {
-    max-width: 720px;
+    max-width: 690px;
+    min-width: 0;
+    margin-left: 12px;
   }
 }

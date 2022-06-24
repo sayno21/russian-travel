@@ -1,6 +1,6 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header__logo-russia {
     max-width: 142px;
-    max-height: 42px;
+    min-height: 42px;
   }
 }
