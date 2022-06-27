@@ -1,0 +1,24 @@
+.place__container {
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__container {
+    margin-top: 80px auto 0;
+  }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .place__container {
+      margin: 73px auto 0;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .place__container {
+      margin: 50px auto 0;
+
+    }
+  }
+
+
