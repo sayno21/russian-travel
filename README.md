@@ -21,3 +21,5 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+
+* [Ссылка на GitHub Pages](https://sayno21.github.io/russian-travel/)
