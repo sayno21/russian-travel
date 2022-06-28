@@ -10,14 +10,14 @@ margin: 8px 0 0 0;
 
 @media screen and (max-width: 1279px) {
   .lead__text {
-    max-width: calc(928px - 21px - 21px) ;
-    margin: 8px auto 0;
+    max-width: calc(928px - 21px - 21px);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead__text {
     max-width: 720px;
+    margin-left: 24px;
   }
 }
 

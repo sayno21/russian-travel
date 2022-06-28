@@ -10,9 +10,20 @@
   justify-content: center;
 }
 
-
 .cover:hover {
   background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(0, 0, 0, 0.8)), url(../../image/railway-station.png);
   background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: calc(100vw - 20px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    width: 100%;
+  }
 }
 
